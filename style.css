@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*font-family: sans-serif;*/
+}
+/*===========STYLING FOR NAVBAR===========*/
+nav{
+    width:100vw;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #cccccc;
+    background: #fff;
+    position: fixed;
+    z-index: 99;
+    top:0;
+}
+nav .left-side .logo img{
+    width: 40px;
+    margin: 5px 0;
+    cursor: pointer;
+}
+nav .left-side{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+nav .left-side .search{
+    width: 250px;
+    height: 40px;
+    background: #efefef;
+    border-radius: 30px;
+    padding: 0 10px;
+    position: relative;
+    left: 15px;
+}
+nav .left-side .search i{
+    line-height: 40px;
+    font-size: 19px;
+    color: #919191;
+    margin-right:5px;
+}
+nav .left-side .search .inp{
+    background: transparent;
+    outline: none;
+    border: 0;
+    font-size: 16px;
+    width: 200px;
+}
+nav .middle {
+    display: flex;
+    gap: 100%;
+    position: relative;
+    right: 45px;
+}
+nav .middle i {
+    font-size: 22px;
+    transition: 0.3s;
+}
+nav .middle i:hover {
+    color: #45abff;
+    cursor: pointer;
+}
+nav .right-side{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+nav .right-side button {
+    margin-right: 5px;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: medium;
+    border: none;
+    font-weight: 600;
+}
+nav .right-side i {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background: #efefef;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    margin-left: 8px;
+    cursor: pointer;
+}
+nav .right-side img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin-left: 9px;
+    line-height: 45px;
+    cursor: pointer;
+}
+
+/*===========END OF NAVBAR==============*/
+
+
+/*===========STARTING OF MAIN==============*/
+main{
+    display: flex;
+    background: #F0F2F5;
+    margin-top: 60px;
+    height:
+
+}
+
+main .left-container{
+    width: 25%;
+    height: calc(100vh - 60px);
+    overflow: hidden;
+    overflow-y: scroll;
+    background: #F0F2F5;
+    padding: 20px 6px 5px 10px;
+    position: fixed;
+}
+main .left-container::-webkit-scrollbar {
+    display: none;
+}
+main .left-container .options{
+    display: flex;
+    align-items:center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+main .left-container .options:hover{
+    background: #e3e3e3;
+}
+main .left-container .options img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    margin: 8px 15px 8px 0;
+}
+main .left-container h4{
+    color:#6D7074;
+    font-size: 14px;
+    margin: 20px 10px 25px 10px;
+}
+
+main .center {
+    margin-left: 25%;
+    width: 50%;
+    background: #F0F2F5;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    margin-top: 30px;  }
+.one {
+    background: #Fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+
+}
+main .center .thought {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+}
+main .center .thought img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+main .center .thought .type-thought{
+    outline: none;
+    background: #efefef;
+    width: 80%;
+    height: 40px;
+    position: relative;
+    left: 15px;
+    border-radius: 50px;
+}
+main .center .thought .type-thought input{
+    background: transparent;
+    outline: none;
+    border: 0;
+    font-size: 16px;
+    width: 80%;
+    line-height:40px;
+    padding: 0 20px;
+}
+main .center hr{
+    width: 90%;
+    margin: auto;
+
+}
+.opt {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+.select {
+    display: flex;
+    align-items: center;
+}
+.two {
+    padding: 10px;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.story {
+  display: flex;
+  align-items: center;
+}
+
+i.fas.fa-plus {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #EBF5FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  margin-left: 8px;
+  cursor: pointer;
+  margin-right: 20px;
+  color:#0866FF;
+}
+
+main .center .two .text-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.post-story p {
+  margin: 5px 0 0;
+}
+.three {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.people-container {
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.heading h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+}
+
+.heading i {
+    color: #555;
+    cursor: pointer;
+}
+
+.pictures {
+    margin-top: 10px;
+}
+
+.profile1, .profile2, .profile3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+.profile1 img, .profile2 img, .profile3 img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 15px;
+    border: 1px solid #ccc;
+}
+
+.profile1 h6, .profile2 h6, .profile3 h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+    margin: 0;
+}
+
+.btn {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.btn i {
+    margin-right: 5px;
+    color: #1877f2;
+    font-size: 18px;
+}
+
+.btn button {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn button:hover {
+    background-color: #155db0;
+}
+
+
+
+
+
+
+
+
+
+
+
